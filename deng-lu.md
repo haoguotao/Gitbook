@@ -26,7 +26,7 @@
 {
     code: 0000, // int, require. 返回码：0000-成功，-XXXX其他错误标识
     msg: "返回码说明", // string, require, 返回码说明：成功或错误描述
-    data:{ // jeson object, require, 业务数据：返回code非0时才有
+    data:{ 
           user_id:"3211"// 用户Id
           }
 }
