@@ -25,26 +25,24 @@
     msg: "返回码说明", // string, require, 返回码说明：业务数据：返回code非0时才有
     data:{ // jeson object, require, 业务数据：返回code非0时才有
           list:[{
-        		id: "3",
-        		name: "\u8fd0\u8425\u5546\u8ba4\u8bc1",//产品名称
-			img_url:”logo地址”,       //
-			tag : [”三分钟审核”,”利率低”,”有身份证即可”],
-			rate : “98%”,             //通过率
-			Repayment : [1,34],       //还款期限 1-34 个月
-			Loan_limit : [500,10000], //贷款额度 500-10000 
-        		statu": 1,                //  1为显示  2为隐藏
-    		}, 
+            id: "3",
+            name: "\u8fd0\u8425\u5546\u8ba4\u8bc1",//产品名称
+            img_url:”logo地址”,       //
+            tag : [”三分钟审核”,”利率低”,”有身份证即可”],
+            rate : “98%”,             //通过率
+            Repayment : [1,34],       //还款期限 1-34 个月
+            Loan_limit : [500,10000], //贷款额度 500-10000 
+                statu": 1,                //  1为显示  2为隐藏
+            }, 
                 {
-        		 id: "2",
-       			 name: "\u829d\u9ebb\u5206\u8ba4\u8bc1",
-			 tag : [”三分钟审核”,”利率低”,”有身份证即可”],
-			 img_url:”logo地址”,
-               		 status: "1" // 1为显示  2为隐藏
-    			}]
+             id: "2",
+             name: "\u829d\u9ebb\u5206\u8ba4\u8bc1",
+             tag : [”三分钟审核”,”利率低”,”有身份证即可”],
+             img_url:”logo地址”,
+             status: "1" // 1为显示  2为隐藏
+                }]
 }
 ```
-
-
 
 
 
