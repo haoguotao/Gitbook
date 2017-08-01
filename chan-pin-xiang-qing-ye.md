@@ -40,5 +40,5 @@
 }
 ```
 
-
+![](/assets/pro_detail.png)
 
