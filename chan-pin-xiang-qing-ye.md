@@ -14,6 +14,7 @@
 ```js
 {
     id: 1, //int, require. 产品id
+    user_id:"1231"//string, require. 用户id
 }
 ```
 
