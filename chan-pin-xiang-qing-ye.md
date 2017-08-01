@@ -1,6 +1,6 @@
-# 首页
+# 产品详情页
 
-获取首页展示的产品信息，按照类别分为：热门、所有
+获取展示的产品详细信息
 
 ---
 
@@ -13,7 +13,7 @@
 
 ```js
 {
-    type: 1, //int, require. 类型定义：1-热门产品，2-所有产品    
+    id: 1, //int, require. 产品id
 }
 ```
 
@@ -24,7 +24,7 @@
 ```js
 {
     code: 0000, // int, require. 返回码：0000-成功，-XXXX其他错误标识
-    msg: "返回码说明", // string, require, 返回码说明：业务数据：返回code非0时才有
+    msg: "返回码说明", // string, require, 返回码说明：成功或错误描述
     data:{ // jeson object, require, 业务数据：返回code非0时才有
           list:[{
             id: "3",
